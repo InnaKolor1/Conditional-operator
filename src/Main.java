@@ -56,58 +56,59 @@ public class Main {
             }
         }
 
-            System.out.println("Задача5");
-            int theChildIsYearsOld = 3;
-            if (theChildIsYearsOld <= 5) {
-                System.out.println(" Если возраст ребенка равен " + theChildIsYearsOld + " ,то ему нельзя кататься на аттракционе ");
+        System.out.println("Задача5");
+        int theChildIsYearsOld = 3;
+        if (theChildIsYearsOld <= 5) {
+            System.out.println(" Если возраст ребенка равен " + theChildIsYearsOld + " ,то ему нельзя кататься на аттракционе ");
 
-                int theChildIsYearsOld2 = 10;
-                if (theChildIsYearsOld2 >= 5 && theChildIsYearsOld2 <= 14)
-                    System.out.println(" Если возраст ребенка равен " + theChildIsYearsOld2 + " ,то можно кататься на аттракционе в сопровождении ");
+            int theChildIsYearsOld2 = 10;
+            if (theChildIsYearsOld2 >= 5 && theChildIsYearsOld2 <= 14)
+                System.out.println(" Если возраст ребенка равен " + theChildIsYearsOld2 + " ,то можно кататься на аттракционе в сопровождении ");
 
-        int theChilIsYearsOld3 = 16;
-        if (theChilIsYearsOld3 >= 14) {
-            System.out.println(" Если возраст ребенка равен " + theChilIsYearsOld3 + " ,то можно без сопровождения взрослого ");
-        }
-
-
-        System.out.println("Задача6");
-
-        int capacityOfOneTraineCarriage = 28;
-        if (capacityOfOneTraineCarriage <= 102) {
-            System.out.println(" Если в вагоне " + capacityOfOneTraineCarriage + " мест, то есть еще места в вагоне ");
-
-            int seatingPositions = 58;
-            if (seatingPositions <= 60) {
-                System.out.println(" Если в вагоне " + seatingPositions + " мест, то есть 2 сидячих места ");
-
-                int stadingPositins = 60;
-                if (stadingPositins <= 62) {
-                    System.out.println(" Если в вагоне " + stadingPositins + " мест, то есть 2 стоячих места ");
-                }
+            int theChilIsYearsOld3 = 16;
+            if (theChilIsYearsOld3 >= 14) {
+                System.out.println(" Если возраст ребенка равен " + theChilIsYearsOld3 + " ,то можно без сопровождения взрослого ");
             }
-        }
 
-        System.out.println("Задача7");
 
-        int one = 1;
-        int two = 2;
-        int three = 3;
+            System.out.println("Задача6");
 
-        if (one < two && one < three) {
-            System.out.println(" 1 меньше, чем 2 и меньше, чем 3 ");
-            if (two < three)
-                System.out.println(" 2 меньше, чем 3 ");
-            if (three > one && three > two)
-                System.out.println(" 3 больше, чем 1 и больше, чем 2 ");
-        }
-                    int maxNumberProgram = 3;
-                    boolean maxNumber = maxNumberProgram >= 3;
-                    if (maxNumber) {
-                        System.out.println(" Самое большее число 3 ");
+            int capacityOfOneTraineCarriage = 28;
+            if (capacityOfOneTraineCarriage <= 102) {
+                System.out.println(" Если в вагоне " + capacityOfOneTraineCarriage + " мест, то есть еще места в вагоне ");
+
+                int seatingPositions = 58;
+                if (seatingPositions <= 60) {
+                    System.out.println(" Если в вагоне " + seatingPositions + " мест, то есть 2 сидячих места ");
+
+                    int stadingPositins = 60;
+                    if (stadingPositins <= 62) {
+                        System.out.println(" Если в вагоне " + stadingPositins + " мест, то есть 2 стоячих места ");
                     }
                 }
             }
+
+            System.out.println("Задача7");
+
+            int one = 1;
+            int two = 2;
+            int three = 3;
+
+            if (one < two && one < three) {
+                System.out.println(" 1 меньше, чем 2 и меньше, чем 3 ");
+                if (two < three)
+                    System.out.println(" 2 меньше, чем 3 ");
+                if (three > one && three > two)
+                    System.out.println(" 3 больше, чем 1 и больше, чем 2 ");
+            }
+            int maxNumberProgram = 3;
+            boolean maxNumber = maxNumberProgram >= 3;
+            if (maxNumber) {
+                System.out.println(" Самое большее число 3 ");
+            }
+        }
+    }
+}
 
 
 

@@ -88,7 +88,7 @@ public class Main {
                 }
             }
 
-            System.out.println("Задача7");
+            System.out.println(" Задача7 ");
 
             int one = 1;
             int two = 2;

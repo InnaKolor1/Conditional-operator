@@ -71,7 +71,7 @@ public class Main {
             }
 
 
-            System.out.println("Задача6");
+            System.out.println(" Задача6");
 
             int capacityOfOneTraineCarriage = 28;
             if (capacityOfOneTraineCarriage <= 102) {

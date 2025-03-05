@@ -71,7 +71,7 @@ public class Main {
             }
 
 
-            System.out.println("Задача6");
+            System.out.println(" Задача6 ");
 
             int capacityOfOneTraineCarriage = 28;
             if (capacityOfOneTraineCarriage <= 102) {
@@ -88,23 +88,18 @@ public class Main {
                 }
             }
 
-            System.out.println("Задача7");
+            System.out.println(" Задача7 ");
 
             int one = 1;
             int two = 2;
             int three = 3;
 
-            if (one < two && one < three) {
-                System.out.println(" 1 меньше, чем 2 и меньше, чем 3 ");
-                if (two < three)
-                    System.out.println(" 2 меньше, чем 3 ");
-                if (three > one && three > two)
-                    System.out.println(" 3 больше, чем 1 и больше, чем 2 ");
-            }
-            int maxNumberProgram = 3;
-            boolean maxNumber = maxNumberProgram >= 3;
-            if (maxNumber) {
-                System.out.println(" Самое большее число 3 ");
+            if (three>two&&three>one) {
+                System.out.println(" 3 больше чем 1 и 2 ");
+            }else if(two>one&&two<three) {
+                System.out.println(" 2 меньше чем 3, но большем чем 1");
+            }else {
+                System.out.println(" Самое большое число 3 ");
             }
         }
     }
